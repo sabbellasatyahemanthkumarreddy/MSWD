@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    font-size:x-large;
+    background-color:Orange;
+    
+}
+h2{
+    text-align: center;
+    font-size:x-large;
+    background-color:grey;
+    
+}
+h3{
+    text-align: center;
+    font-size:x-large;
+    background-color:white;
+    
+}
+
+img {
+display: block;
+width: 66%;
+margin-left: auto;
+margin-right: auto;
+ }
+    
+ html{
+     background-color:purple;
+ }
+ p{
+     font-size:x-large;
+     background-color:red;
+ }
+body{
+    width: 1500px;
+    margin:auto;
+    background-color:skyblue;
+    
+    border: 5px solid yellow;
+}

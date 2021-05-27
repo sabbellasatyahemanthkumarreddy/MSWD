@@ -1,0 +1,56 @@
+<Html>  
+<head>   
+<title>  
+INFO Form  
+</title>  
+</head>  
+<body>
+<style>
+h1 {text-align: center;}
+</style>
+<h1 style="background-color:Orange;">INFO Form</h1>
+<body bgcolor="lightblue">   
+<br>  
+<form>
+<style>
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+</style>  
+<label> Firstname </label>         
+<input type="text" name="firstname" minlength="3" required> <br> <br>  
+<label> Lastname: </label>         
+<input type="text" name="lastname" minlength="1" required> <br>  
+<br>    
+<label>   
+Gender :  
+</label><br>  
+<input type="radio" name="male"/ > Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<br>
+Email:  
+<input type="email" id="email" name="email" required> <br> <br>  
+
+<label for="msg">Message:</label>
+           <textarea id="msg" name="user_message"></textarea>
+<input type="submit" value="Submit">
+</form> 
+<script>
+var myInput = document.getElementById("mobile");
+var number = document.getElementById("number"); 
+ var numbers = /[0-9]/g;
+  if(myInput.value.match(numbers)) {  
+    number.classList.remove("invalid");
+    number.classList.add("valid");
+  } else {
+    number.classList.remove("valid");
+    number.classList.add("invalid");
+  }
+</script>
+
+</body>  
+</html>  
